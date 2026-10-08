@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nitej | Portfolio</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><nav class="navbar">
+  <a class="logo" href="#home">Nitej.</a>
+  <div class="navlinks">
+    <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+    <button id="adminToggle" title="Admin Login">🔐</button><button id="themeBtn" title="Toggle theme">🌙</button>
+  </div>
+</nav></header>
+<main>
+<section id="home" class="hero container"><div><p class="tag">HELLO, I'M</p><h1>Nitej</h1><h2>AIML Student & Web Developer</h2><p>I build practical software projects using web technologies, JavaScript, React and AI.</p><a class="btn" href="#contact">Contact Me</a></div><div class="hero-card">&lt;/&gt;<br><span>Build • Learn • Create</span></div></section>
+<section id="about" class="section container"><h2>About Me</h2><p>I am a B.Tech student interested in Artificial Intelligence, Machine Learning and modern web development. I enjoy creating useful applications and learning new technologies.</p></section>
+<section id="skills" class="section container"><h2>Skills</h2><div class="grid"><div class="card">HTML5</div><div class="card">CSS3</div><div class="card">JavaScript</div><div class="card">React</div><div class="card">Python</div><div class="card">AI / ML</div></div></section>
+<section id="projects" class="section container"><h2>Projects</h2><div class="grid"><article class="card"><h3>Portfolio Website</h3><p>Responsive portfolio with contact form, JSON storage, admin dashboard and theme toggle.</p></article><article class="card"><h3>React Contact Cards</h3><p>SPA for creating users dynamically with reusable React components.</p></article><article class="card"><h3>Like Card</h3><p>React component demonstrating props and useState for like/unlike interaction.</p></article></div></section>
+<section id="contact" class="section container"><h2>Contact Me</h2><form id="contactForm"><input id="name" required placeholder="Your Name"><input id="email" type="email" required placeholder="Your Email"><textarea id="message" required placeholder="Your Message"></textarea><button class="btn" type="submit">Send Message</button><p id="formStatus"></p></form></section>
+<section id="admin" class="section container admin hidden"><h2>Admin Dashboard</h2><div id="loginBox"><input id="adminUser" placeholder="Username"><input id="adminPass" type="password" placeholder="Password"><button class="btn" id="loginBtn">Login</button><small>Demo credentials: admin / 1234</small></div><div id="responsesBox" class="hidden"><div class="adminbar"><h3>User Responses</h3><button class="btn danger" id="logoutBtn">Logout</button></div><div id="responses"></div></div></section>
+</main><footer><p>© 2026 Nitej • Resume/Portfolio Website</p></footer><script src="script.js"></script>
+</body></html>
